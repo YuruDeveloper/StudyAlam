@@ -1,4 +1,5 @@
 #![allow(non_snake_case)]
+#![windows_subsystem = "windows"]
 use tray_icon_win::{menu::{ Menu, MenuEvent, MenuItem}, Icon, TrayIcon, TrayIconBuilder};
 use tao::{
     event::Event,
