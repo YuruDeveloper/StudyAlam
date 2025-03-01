@@ -1,0 +1,11 @@
+[package]
+name = "StudyAlam"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tray-icon-win = "0.1.5"
+tao = "0.32.3"
+winreg = "0.55.0"
+tokio = {version ="1.43.0",features = ["full"]}
+kira = "0.10.4"
